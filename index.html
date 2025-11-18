@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Sophia - Professional Journalist | Award-winning reporting and investigative journalism">
-    <title>Sophia - Journalist</title>
+    <title>Sophia Bailly - Journalist</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" referrerpolicy="no-referrer">
+    <link rel="preload" as="image" href="profile.jpeg">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="container">
                 <div class="logo">
-                    <h1>Sophia</h1>
+                    <h1>Sophia Bailly</h1>
                     <p class="tagline">Journalist & Writer</p>
                 </div>
                 <ul class="nav-menu">
@@ -29,6 +31,9 @@
         <!-- Hero Section -->
         <section id="home" class="hero">
             <div class="container">
+                <div class="hero-image">
+                    <img src="profile.jpeg" alt="Portrait of Sophia" width="240" height="240" loading="eager" decoding="async" />
+                </div>
                 <div class="hero-content">
                     <h2>Telling Stories That Matter</h2>
                     <p class="hero-description">
@@ -60,9 +65,8 @@
                         <div class="credentials">
                             <h3>Credentials & Experience</h3>
                             <ul>
-                                <li>Master's Degree in Journalism</li>
-                                <li>10+ years in investigative reporting</li>
-                                <li>Published in leading national publications</li>
+                                <li>Bachelor's Degree in Journalism</li>
+                                <li>Published in leading state publications</li>
                                 <li>Recipient of multiple journalism awards</li>
                             </ul>
                         </div>
@@ -138,10 +142,19 @@
                         </div>
                         <div class="contact-item">
                             <h3>Social Media</h3>
-                            <div class="social-links">
-                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">Twitter</a>
-                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-                                <a href="https://medium.com" target="_blank" rel="noopener noreferrer">Medium</a>
+                            <div class="social-links" aria-label="Social media links">
+                                <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                    <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                                    <span class="sr-only">Twitter</span>
+                                </a>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                                    <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+                                    <span class="sr-only">LinkedIn</span>
+                                </a>
+                                <a href="https://medium.com" target="_blank" rel="noopener noreferrer" aria-label="Medium">
+                                    <i class="fa-brands fa-medium" aria-hidden="true"></i>
+                                    <span class="sr-only">Medium</span>
+                                </a>
                             </div>
                         </div>
                         <div class="contact-item">
